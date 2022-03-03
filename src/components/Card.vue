@@ -11,7 +11,9 @@
           <p style="margin-top: -16px">Type : {{ anime.type }}</p>
           <p style="margin-top: -16px">Score : {{ anime.score }}</p>
           <p style="margin-top: -16px">Rating : {{ anime.rated }}</p>
+          <p style="margin-top: -16px">Start Date : {{ anime.start_date }}</p>
           <a class="btn btn-primary btn-sm" :href="anime.url" target="_blank">Read More</a>
+
         </div>
       </div>
     </div>
@@ -24,6 +26,7 @@ export default {
   props: ["anime"],
   name: "Card",
 };
+
 </script>
 
 <style></style>
